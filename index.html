@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://www.themealdb.com">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR
+    +ZOhtIloN19GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Recipe App</h1>
+            <form>
+                <input type="text" placeholder="search for a recipe" id="navtext" class="searchBox"/>
+                <button type="submit" id="navbutton" class="searchBtn">Search</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="recipe-container">
+            <h1 class="heading" >search for a recipe</h1>
+            </div>
+            <div class="back-img">
+            <img src="./images/wp1955114.jpg" alt="image" height="80%" width="100%"></img>
+            </div>
+        
+            
+            <div class="recipe-details">
+                <button type="button" class="close-btn">
+                    <i class="fas fa-times"></i>close
+                </button>
+                <div class="recipe-details-content"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
